@@ -17,8 +17,8 @@ int main()
     int L2 = static_cast<int>(L);
     int meters2 = L2 / 100;
 
-    cout << "Спосіб 1 (стиль C):           " << meters1 << " полных метров" << endl;
-    cout << "Спосіб 2 (static_cast, C++):  " << meters2 << " полных метров" << endl;
+    cout << "Спосіб 1 (стиль C):           " << meters1 << " цілих метрів" << endl;
+    cout << "Спосіб 2 (static_cast, C++):  " << meters2 << " цілих метрів" << endl;
 
     system("pause");
     return 0;
